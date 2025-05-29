@@ -1,3 +1,4 @@
+import 'package:ecommerce_sample/utils/constants/colors.dart';
 import 'package:ecommerce_sample/utils/theme/custom_themes/appbar_theme.dart';
 import 'package:ecommerce_sample/utils/theme/custom_themes/bottom_sheet_theme.dart';
 import 'package:ecommerce_sample/utils/theme/custom_themes/checkbox_theme.dart';
@@ -15,7 +16,7 @@ class CAppTheme {
     useMaterial3: true,
     fontFamily: 'Poppins',
     brightness: Brightness.light,
-    primaryColor: Colors.blue,
+    primaryColor: CColors.primaryColor,
     scaffoldBackgroundColor: Colors.white,
     appBarTheme: CAppbarTheme.lightAppbarTheme,
     bottomSheetTheme: CBottomSheetTheme.lightBottomSheetTheme,
@@ -25,13 +26,12 @@ class CAppTheme {
     outlinedButtonTheme: COutlinedButtonTheme.lightOutlinedButtonTheme,
     inputDecorationTheme: CTextFieldTheme.lightInputDecorationTheme,
     textTheme: CTextTheme.lightTextTheme,
-
   );
   static ThemeData darkTheme = ThemeData(
     useMaterial3: true,
     fontFamily: 'Poppins',
     brightness: Brightness.dark,
-    primaryColor: Colors.blue,
+    primaryColor: CColors.primaryColor,
     scaffoldBackgroundColor: Colors.black,
     appBarTheme: CAppbarTheme.darkAppbarTheme,
     bottomSheetTheme: CBottomSheetTheme.darkBottomSheetTheme,
