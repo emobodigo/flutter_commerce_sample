@@ -4,7 +4,6 @@ import 'package:ecommerce_sample/features/authentication/screens/signup/verify_e
 import 'package:ecommerce_sample/features/authentication/screens/signup/widgets/term_condition_checkbox.dart';
 import 'package:ecommerce_sample/utils/constants/sizes.dart';
 import 'package:ecommerce_sample/utils/constants/text_strings.dart';
-import 'package:ecommerce_sample/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
@@ -16,7 +15,6 @@ class SignupForm extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final dark = CHelperFunctions.isDarkMode(context);
     return Form(
       child: Column(
         children: [
