@@ -1,11 +1,12 @@
-import 'package:ecommerce_sample/features/authentication/screens/forgot_password/forgot_password.dart';
-import 'package:ecommerce_sample/features/authentication/screens/signup/signup.dart';
-import 'package:ecommerce_sample/home_menu.dart';
-import 'package:ecommerce_sample/utils/constants/sizes.dart';
-import 'package:ecommerce_sample/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+
+import '../../../../../home_menu.dart';
+import '../../../../../utils/constants/sizes.dart';
+import '../../../../../utils/constants/text_strings.dart';
+import '../../forgot_password/forgot_password.dart';
+import '../../signup/signup.dart';
 
 class LoginForm extends StatelessWidget {
   const LoginForm({

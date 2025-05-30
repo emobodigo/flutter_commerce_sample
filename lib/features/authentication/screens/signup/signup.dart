@@ -1,7 +1,8 @@
-import 'package:ecommerce_sample/features/authentication/screens/signup/widgets/signup_form.dart';
-import 'package:ecommerce_sample/utils/constants/sizes.dart';
-import 'package:ecommerce_sample/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
+
+import '../../../../utils/constants/sizes.dart';
+import '../../../../utils/constants/text_strings.dart';
+import 'widgets/signup_form.dart';
 
 class SignupScreen extends StatelessWidget {
   const SignupScreen({super.key});

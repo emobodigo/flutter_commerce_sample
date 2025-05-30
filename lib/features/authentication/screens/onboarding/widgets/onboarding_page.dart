@@ -1,6 +1,7 @@
-import 'package:ecommerce_sample/utils/constants/sizes.dart';
-import 'package:ecommerce_sample/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
+
+import '../../../../../utils/constants/sizes.dart';
+import '../../../../../utils/helpers/helper_functions.dart';
 
 class OnBoardingPage extends StatelessWidget {
   const OnBoardingPage({

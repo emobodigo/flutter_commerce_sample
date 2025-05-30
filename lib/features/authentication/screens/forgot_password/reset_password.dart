@@ -1,10 +1,11 @@
-import 'package:ecommerce_sample/utils/constants/image_strings.dart';
-import 'package:ecommerce_sample/utils/constants/sizes.dart';
-import 'package:ecommerce_sample/utils/constants/text_strings.dart';
-import 'package:ecommerce_sample/utils/helpers/helper_functions.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../../../../utils/constants/image_strings.dart';
+import '../../../../utils/constants/sizes.dart';
+import '../../../../utils/constants/text_strings.dart';
+import '../../../../utils/helpers/helper_functions.dart';
 
 class ResetPassword extends StatelessWidget {
   const ResetPassword({super.key});

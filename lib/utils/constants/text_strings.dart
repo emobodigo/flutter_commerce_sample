@@ -68,5 +68,5 @@ class CTexts {
 
   // -- Home
   static const String homeAppbarTitle = "Good day for shopping";
-  static const String homeAppbarSubTitle = "Here we Go!";
+  static const String homeAppbarSubTitle = "Djohansyah";
 }

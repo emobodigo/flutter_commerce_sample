@@ -1,7 +1,8 @@
-import 'package:ecommerce_sample/common/widgets/circular_container.dart';
-import 'package:ecommerce_sample/common/widgets/curved_edge_widget.dart';
-import 'package:ecommerce_sample/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
+
+import '../../utils/constants/colors.dart';
+import 'circular_container.dart';
+import 'curved_edge_widget.dart';
 
 class PrimaryHeaderContainer extends StatelessWidget {
   const PrimaryHeaderContainer({

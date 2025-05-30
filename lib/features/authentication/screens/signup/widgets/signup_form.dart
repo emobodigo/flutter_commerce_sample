@@ -1,12 +1,13 @@
-import 'package:ecommerce_sample/common/widgets/form_divider.dart';
-import 'package:ecommerce_sample/common/widgets/social_buttons.dart';
-import 'package:ecommerce_sample/features/authentication/screens/signup/verify_email.dart';
-import 'package:ecommerce_sample/features/authentication/screens/signup/widgets/term_condition_checkbox.dart';
-import 'package:ecommerce_sample/utils/constants/sizes.dart';
-import 'package:ecommerce_sample/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+
+import '../../../../../common/widgets/form_divider.dart';
+import '../../../../../common/widgets/social_buttons.dart';
+import '../../../../../utils/constants/sizes.dart';
+import '../../../../../utils/constants/text_strings.dart';
+import '../verify_email.dart';
+import 'term_condition_checkbox.dart';
 
 class SignupForm extends StatelessWidget {
   const SignupForm({

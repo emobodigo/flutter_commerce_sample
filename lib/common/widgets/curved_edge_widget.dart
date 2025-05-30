@@ -1,5 +1,6 @@
-import 'package:ecommerce_sample/common/widgets/curved_edge_shape.dart';
 import 'package:flutter/material.dart';
+
+import 'curved_edge_shape.dart';
 
 class CurvedEdgeWidget extends StatelessWidget {
   const CurvedEdgeWidget({

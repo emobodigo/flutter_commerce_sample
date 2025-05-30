@@ -1,9 +1,10 @@
-import 'package:ecommerce_sample/features/authentication/screens/forgot_password/reset_password.dart';
-import 'package:ecommerce_sample/utils/constants/sizes.dart';
-import 'package:ecommerce_sample/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+
+import '../../../../utils/constants/sizes.dart';
+import '../../../../utils/constants/text_strings.dart';
+import 'reset_password.dart';
 
 class ForgotPassword extends StatelessWidget {
   const ForgotPassword({super.key});
